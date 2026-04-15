@@ -66,7 +66,7 @@ function Fashion() {
     };
     const getFashion = () => {
         setLoading(true)
-        fetch("http://localhost:4000/all")
+        fetch("/data.json")
             .then(res => res.json())
             .then(res => setFashion(res))
             .catch(err => setError(true))

@@ -1,0 +1,22 @@
+{
+    "Appliances": [
+        {
+            "category_id": 7,
+            "category_name": "appliances",
+            "description": "SAMSUNG 6.5 kg Diamond Drum feature Fully Automatic Top Load Silver",
+            "image": "https://i.ibb.co/rGxFXRT/ce39ad8d6345.jpg",
+            "stars": 4.4,
+            "ratings": "1,04,278 Ratings ",
+            "reviews": " 9,689 Reviews",
+            "new_price": 1459,
+            "old_price": 1689,
+            "discount": 14,
+            "delivery_type": "Free delivery",
+            "offer": "Bank Offer",
+            "hidden_stars": 4.4,
+            "item_id": 1,
+            "quantity": 1,
+            "size": "S, M, L XL"
+        }
+    ]
+}

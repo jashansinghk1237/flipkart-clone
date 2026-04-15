@@ -72,7 +72,7 @@ function Bestselling() {
       };
     const getFashion = () => {
         setLoading(true)
-        fetch("http://localhost:4000/all")
+        fetch("/data.json")
             .then(res => res.json())
             .then(res => setBestselling(res))
             .catch(err => setError(true))

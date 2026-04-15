@@ -65,7 +65,7 @@ function Groceries() {
       };
     const getFashion = () => {
         setLoading(true)
-        fetch("http://localhost:4000/all")
+        fetch("/data.json")
             .then(res => res.json())
             .then(res => setGroceries(res))
             .catch(err => setError(true))

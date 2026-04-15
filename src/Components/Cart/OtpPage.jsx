@@ -50,7 +50,7 @@ const { cartData, SetCartData, getData, setOrderpageData, orderpageData } = useC
       setOrderpageData([...orderpageData, ...cartData, ])
 
       for(let i=0; i<cartData.length; i++){
-      fetch(`http://localhost:4000/products/${cartData[i].id}`,{
+      fetch(`/products.json`, {
           method:"DELETE"
       })
       .then(response =>{
